@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "C17 鸣谢墙公开名单",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "revision", "updated_at", "groups", "people"],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1,
+      "description": "数据结构版本；当前为 1。"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "名单版本；每次发布修改后加 1。"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date",
+      "description": "最后更新日期，格式为 YYYY-MM-DD。"
+    },
+    "groups": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title"],
+        "properties": {
+          "id": {"type": "string", "enum": ["donation", "support"]},
+          "title": {"type": "string", "minLength": 1, "maxLength": 30}
+        }
+      },
+      "allOf": [
+        {
+          "contains": {
+            "type": "object",
+            "required": ["id"],
+            "properties": {"id": {"const": "donation"}}
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": ["id"],
+            "properties": {"id": {"const": "support"}}
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      ]
+    },
+    "people": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "display_name", "group"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{1,63}$",
+            "description": "稳定且唯一的标识，例如 p001；改昵称时不要更改。"
+          },
+          "display_name": {"type": "string", "minLength": 1, "maxLength": 80},
+          "avatar": {
+            "anyOf": [
+              {"type": "null"},
+              {
+                "type": "string",
+                "pattern": "^avatars/[a-z0-9_-]+\\.(png|jpg|jpeg|webp)$"
+              }
+            ],
+            "default": null,
+            "description": "仓库内头像相对路径；没有头像时填 null 或省略。"
+          },
+          "group": {"type": "string", "enum": ["donation", "support"]},
+          "featured": {"type": "boolean", "default": false},
+          "note": {"type": "string", "maxLength": 200, "default": ""},
+          "order": {"type": "integer", "minimum": 0, "default": 100},
+          "visible": {"type": "boolean", "default": true}
+        }
+      }
+    }
+  }
+}

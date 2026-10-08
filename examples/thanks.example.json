@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "updated_at": "2026-10-08",
+  "groups": [
+    {
+      "id": "donation",
+      "title": "捐赠支持"
+    },
+    {
+      "id": "support",
+      "title": "其他支持"
+    }
+  ],
+  "people": [
+    {
+      "id": "example_001",
+      "display_name": "示例昵称（请替换）",
+      "avatar": null,
+      "group": "donation",
+      "featured": true,
+      "note": "这里填写经本人同意公开的鸣谢说明。",
+      "order": 10,
+      "visible": true
+    },
+    {
+      "id": "example_002",
+      "display_name": "另一个示例昵称（请替换）",
+      "avatar": null,
+      "group": "support",
+      "featured": false,
+      "note": "这里填写实际提供的反馈、测试或其他帮助。",
+      "order": 20,
+      "visible": true
+    }
+  ]
+}
