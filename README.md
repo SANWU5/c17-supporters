@@ -4,7 +4,11 @@
 
 > 感谢每一位为项目提供捐赠、反馈和帮助的伙伴。你们的支持，让项目得以持续改进，也让每一次更新更有动力。
 
-当前 `thanks.json` 是空名单，尚未导入任何真实用户。`examples/thanks.example.json` 只有虚构示例，不能作为正式名单展示。
+当前 `thanks.json` 已导入 45 位捐赠支持者的公开昵称与头像，内容版本为 `revision: 2`（2026-10-08）。特别鸣谢 **@变了散了算了**，保留维护者提供的鸣谢说明。`examples/thanks.example.json` 只有虚构示例，不能作为正式名单展示。
+
+首次导入以维护者整理的表格为准，保留昵称、表情和原有顺序；按名单备注排除作者本人。两位“空白昵称”分别保存为独立记录，用不同 ID 和头像区分，不按昵称合并。头像使用同批素材中的原图，并已核对与表格中的头像对应。
+
+应用可读取 [正式名单](https://raw.githubusercontent.com/SANWU5/c17-supporters/main/thanks.json)，头像路径相对于 `https://raw.githubusercontent.com/SANWU5/c17-supporters/main/` 解析。
 
 ## 分类
 

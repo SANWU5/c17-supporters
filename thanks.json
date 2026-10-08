@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 2,
   "updated_at": "2026-10-08",
   "groups": [
     {
@@ -12,5 +12,456 @@
       "title": "其他支持"
     }
   ],
-  "people": []
+  "people": [
+    {
+      "id": "p001",
+      "display_name": "变了散了算了",
+      "group": "donation",
+      "avatar": "avatars/p001.jpg",
+      "featured": true,
+      "note": "特别鸣谢！没有他的支持，就没有这个模块的诞生。",
+      "order": 20,
+      "visible": true
+    },
+    {
+      "id": "p002",
+      "display_name": "lanuni",
+      "group": "donation",
+      "avatar": "avatars/p002.jpg",
+      "featured": false,
+      "note": "",
+      "order": 30,
+      "visible": true
+    },
+    {
+      "id": "p003",
+      "display_name": "時玖晞",
+      "group": "donation",
+      "avatar": "avatars/p003.jpg",
+      "featured": false,
+      "note": "",
+      "order": 40,
+      "visible": true
+    },
+    {
+      "id": "p004",
+      "display_name": "AAA鲜榨程汁🍹",
+      "group": "donation",
+      "avatar": "avatars/p004.jpg",
+      "featured": false,
+      "note": "",
+      "order": 50,
+      "visible": true
+    },
+    {
+      "id": "p005",
+      "display_name": "Badwomen",
+      "group": "donation",
+      "avatar": "avatars/p005.jpg",
+      "featured": false,
+      "note": "",
+      "order": 60,
+      "visible": true
+    },
+    {
+      "id": "p006",
+      "display_name": "比懒羊羊能睡",
+      "group": "donation",
+      "avatar": "avatars/p006.jpg",
+      "featured": false,
+      "note": "",
+      "order": 70,
+      "visible": true
+    },
+    {
+      "id": "p007",
+      "display_name": "柏屿星烨",
+      "group": "donation",
+      "avatar": "avatars/p007.jpg",
+      "featured": false,
+      "note": "",
+      "order": 80,
+      "visible": true
+    },
+    {
+      "id": "p008",
+      "display_name": "暴躁的大饼",
+      "group": "donation",
+      "avatar": "avatars/p008.jpg",
+      "featured": false,
+      "note": "",
+      "order": 90,
+      "visible": true
+    },
+    {
+      "id": "p009",
+      "display_name": "澈",
+      "group": "donation",
+      "avatar": "avatars/p009.jpg",
+      "featured": false,
+      "note": "",
+      "order": 100,
+      "visible": true
+    },
+    {
+      "id": "p010",
+      "display_name": "Ehgnaw_",
+      "group": "donation",
+      "avatar": "avatars/p010.jpg",
+      "featured": false,
+      "note": "",
+      "order": 110,
+      "visible": true
+    },
+    {
+      "id": "p011",
+      "display_name": "em",
+      "group": "donation",
+      "avatar": "avatars/p011.jpg",
+      "featured": false,
+      "note": "",
+      "order": 120,
+      "visible": true
+    },
+    {
+      "id": "p012",
+      "display_name": "HasenTu",
+      "group": "donation",
+      "avatar": "avatars/p012.jpg",
+      "featured": false,
+      "note": "",
+      "order": 130,
+      "visible": true
+    },
+    {
+      "id": "p013",
+      "display_name": "idk",
+      "group": "donation",
+      "avatar": "avatars/p013.jpg",
+      "featured": false,
+      "note": "",
+      "order": 140,
+      "visible": true
+    },
+    {
+      "id": "p014",
+      "display_name": "involuntary",
+      "group": "donation",
+      "avatar": "avatars/p014.jpg",
+      "featured": false,
+      "note": "",
+      "order": 150,
+      "visible": true
+    },
+    {
+      "id": "p015",
+      "display_name": "杰丶先森",
+      "group": "donation",
+      "avatar": "avatars/p015.jpg",
+      "featured": false,
+      "note": "",
+      "order": 160,
+      "visible": true
+    },
+    {
+      "id": "p016",
+      "display_name": "经年丶",
+      "group": "donation",
+      "avatar": "avatars/p016.jpg",
+      "featured": false,
+      "note": "",
+      "order": 170,
+      "visible": true
+    },
+    {
+      "id": "p017",
+      "display_name": "加一",
+      "group": "donation",
+      "avatar": "avatars/p017.jpg",
+      "featured": false,
+      "note": "",
+      "order": 180,
+      "visible": true
+    },
+    {
+      "id": "p018",
+      "display_name": "看开点就好了",
+      "group": "donation",
+      "avatar": "avatars/p018.jpg",
+      "featured": false,
+      "note": "",
+      "order": 190,
+      "visible": true
+    },
+    {
+      "id": "p019",
+      "display_name": "洛诺",
+      "group": "donation",
+      "avatar": "avatars/p019.jpg",
+      "featured": false,
+      "note": "",
+      "order": 200,
+      "visible": true
+    },
+    {
+      "id": "p020",
+      "display_name": "Lucky",
+      "group": "donation",
+      "avatar": "avatars/p020.jpg",
+      "featured": false,
+      "note": "",
+      "order": 210,
+      "visible": true
+    },
+    {
+      "id": "p021",
+      "display_name": "Luffy",
+      "group": "donation",
+      "avatar": "avatars/p021.jpg",
+      "featured": false,
+      "note": "",
+      "order": 220,
+      "visible": true
+    },
+    {
+      "id": "p022",
+      "display_name": "虔诚",
+      "group": "donation",
+      "avatar": "avatars/p022.jpg",
+      "featured": false,
+      "note": "",
+      "order": 230,
+      "visible": true
+    },
+    {
+      "id": "p023",
+      "display_name": "茕孑",
+      "group": "donation",
+      "avatar": "avatars/p023.jpg",
+      "featured": false,
+      "note": "",
+      "order": 240,
+      "visible": true
+    },
+    {
+      "id": "p024",
+      "display_name": "然同月",
+      "group": "donation",
+      "avatar": "avatars/p024.jpg",
+      "featured": false,
+      "note": "",
+      "order": 250,
+      "visible": true
+    },
+    {
+      "id": "p025",
+      "display_name": "山",
+      "group": "donation",
+      "avatar": "avatars/p025.jpg",
+      "featured": false,
+      "note": "",
+      "order": 260,
+      "visible": true
+    },
+    {
+      "id": "p026",
+      "display_name": "S.",
+      "group": "donation",
+      "avatar": "avatars/p026.jpg",
+      "featured": false,
+      "note": "",
+      "order": 270,
+      "visible": true
+    },
+    {
+      "id": "p027",
+      "display_name": "雾霾",
+      "group": "donation",
+      "avatar": "avatars/p027.jpg",
+      "featured": false,
+      "note": "",
+      "order": 280,
+      "visible": true
+    },
+    {
+      "id": "p028",
+      "display_name": "星河",
+      "group": "donation",
+      "avatar": "avatars/p028.jpg",
+      "featured": false,
+      "note": "",
+      "order": 290,
+      "visible": true
+    },
+    {
+      "id": "p029",
+      "display_name": "擅长解衣",
+      "group": "donation",
+      "avatar": "avatars/p029.jpg",
+      "featured": false,
+      "note": "",
+      "order": 300,
+      "visible": true
+    },
+    {
+      "id": "p030",
+      "display_name": "一半",
+      "group": "donation",
+      "avatar": "avatars/p030.jpg",
+      "featured": false,
+      "note": "",
+      "order": 310,
+      "visible": true
+    },
+    {
+      "id": "p031",
+      "display_name": "颜小生",
+      "group": "donation",
+      "avatar": "avatars/p031.jpg",
+      "featured": false,
+      "note": "",
+      "order": 320,
+      "visible": true
+    },
+    {
+      "id": "p032",
+      "display_name": "一只废物狗",
+      "group": "donation",
+      "avatar": "avatars/p032.jpg",
+      "featured": false,
+      "note": "",
+      "order": 330,
+      "visible": true
+    },
+    {
+      "id": "p033",
+      "display_name": "Z.",
+      "group": "donation",
+      "avatar": "avatars/p033.jpg",
+      "featured": false,
+      "note": "",
+      "order": 340,
+      "visible": true
+    },
+    {
+      "id": "p034",
+      "display_name": "郑钺霖",
+      "group": "donation",
+      "avatar": "avatars/p034.jpg",
+      "featured": false,
+      "note": "",
+      "order": 350,
+      "visible": true
+    },
+    {
+      "id": "p035",
+      "display_name": "༺單࿅行༻",
+      "group": "donation",
+      "avatar": "avatars/p035.jpg",
+      "featured": false,
+      "note": "",
+      "order": 360,
+      "visible": true
+    },
+    {
+      "id": "p036",
+      "display_name": "ღ.",
+      "group": "donation",
+      "avatar": "avatars/p036.jpg",
+      "featured": false,
+      "note": "",
+      "order": 370,
+      "visible": true
+    },
+    {
+      "id": "p037",
+      "display_name": "张",
+      "group": "donation",
+      "avatar": "avatars/p037.jpg",
+      "featured": false,
+      "note": "",
+      "order": 380,
+      "visible": true
+    },
+    {
+      "id": "p038",
+      "display_name": "空白昵称",
+      "group": "donation",
+      "avatar": "avatars/p038.jpg",
+      "featured": false,
+      "note": "",
+      "order": 390,
+      "visible": true
+    },
+    {
+      "id": "p039",
+      "display_name": "愙歖",
+      "group": "donation",
+      "avatar": "avatars/p039.jpg",
+      "featured": false,
+      "note": "",
+      "order": 400,
+      "visible": true
+    },
+    {
+      "id": "p040",
+      "display_name": "緣點",
+      "group": "donation",
+      "avatar": "avatars/p040.jpg",
+      "featured": false,
+      "note": "",
+      "order": 410,
+      "visible": true
+    },
+    {
+      "id": "p041",
+      "display_name": "空白昵称",
+      "group": "donation",
+      "avatar": "avatars/p041.jpg",
+      "featured": false,
+      "note": "",
+      "order": 420,
+      "visible": true
+    },
+    {
+      "id": "p042",
+      "display_name": "🇲 🇪",
+      "group": "donation",
+      "avatar": "avatars/p042.jpg",
+      "featured": false,
+      "note": "",
+      "order": 430,
+      "visible": true
+    },
+    {
+      "id": "p043",
+      "display_name": ".",
+      "group": "donation",
+      "avatar": "avatars/p043.jpg",
+      "featured": false,
+      "note": "",
+      "order": 440,
+      "visible": true
+    },
+    {
+      "id": "p044",
+      "display_name": "1个球",
+      "group": "donation",
+      "avatar": "avatars/p044.jpg",
+      "featured": false,
+      "note": "",
+      "order": 450,
+      "visible": true
+    },
+    {
+      "id": "p045",
+      "display_name": "辞暮",
+      "group": "donation",
+      "avatar": "avatars/p045.jpg",
+      "featured": false,
+      "note": "",
+      "order": 460,
+      "visible": true
+    }
+  ]
 }
